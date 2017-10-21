@@ -4,7 +4,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Classes/**/*",
+  "source_files": "UIPanGestureRecognizerDirection/Classes/**/*",
   "homepage": "https://github.com/iwheelbuy/UIPanGestureRecognizerDirection",
   "license": "MIT",
   "authors": {

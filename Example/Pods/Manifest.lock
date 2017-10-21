@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UIPanGestureRecognizerDirection: e0f6c20993833a72eb553f3fb962fba58ca3618d
+  UIPanGestureRecognizerDirection: 1ab5096311c867141e3b43be75615633b0c59215
 
 PODFILE CHECKSUM: 8843efb6a50bb3b00e96a90286f54c3355f1a8b1
 
