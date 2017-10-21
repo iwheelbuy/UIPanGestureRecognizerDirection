@@ -1,6 +1,6 @@
 # git tag 1.0.0
 # git push origin 1.0.0
-# pod lib lint UIPanGestureRecognizerDirection.podspec --no-clean
+# pod lib lint UIPanGestureRecognizerDirection.podspec --no-clean --verbose
 # pod spec lint UIPanGestureRecognizerDirection.podspec --allow-warnings
 # pod trunk push UIPanGestureRecognizerDirection.podspec --verbose
 
@@ -16,5 +16,6 @@ s.author                = { 'iWheelBuy' => 'iwheelbuy@gmail.com' }
 s.source                = { :git => 'https://github.com/iwheelbuy/UIPanGestureRecognizerDirection.git', :tag => s.version.to_s }
 s.summary               = 'UIPanGestureRecognizerDirection'
 s.cocoapods_version     = '>= 1.3.1'
+s.pod_target_xcconfig   = { "SWIFT_VERSION" => "4.0" }
 
 end
