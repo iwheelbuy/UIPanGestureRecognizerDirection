@@ -22,7 +22,7 @@ pod 'UIPanGestureRecognizerDirection'
 
 ## Author
 
-iwheelbuy, mikhail.vasilev@noveogroup.com
+iWheelBuy, iwheelbuy@gmail.com
 
 ## License
 
