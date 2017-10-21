@@ -17,7 +17,7 @@ UIPanGestureRecognizerDirection is available through [CocoaPods](http://cocoapod
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'UIPanGestureRecognizerDirection'
+pod 'UIPanGestureRecognizerDirection', '1.0.0'
 ```
 
 ## Author

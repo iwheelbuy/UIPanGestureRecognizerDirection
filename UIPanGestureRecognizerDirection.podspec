@@ -1,3 +1,9 @@
+# git tag 1.0.0
+# git push origin 1.0.0
+# pod lib lint UIPanGestureRecognizerDirection.podspec --no-clean
+# pod spec lint UIPanGestureRecognizerDirection.podspec --allow-warnings
+# pod trunk push UIPanGestureRecognizerDirection.podspec
+
 Pod::Spec.new do |s|
 
 s.name                  = 'UIPanGestureRecognizerDirection'
