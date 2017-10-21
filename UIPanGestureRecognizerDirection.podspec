@@ -2,7 +2,7 @@
 # git push origin 1.0.0
 # pod lib lint UIPanGestureRecognizerDirection.podspec --no-clean
 # pod spec lint UIPanGestureRecognizerDirection.podspec --allow-warnings
-# pod trunk push UIPanGestureRecognizerDirection.podspec
+# pod trunk push UIPanGestureRecognizerDirection.podspec --verbose
 
 Pod::Spec.new do |s|
 
