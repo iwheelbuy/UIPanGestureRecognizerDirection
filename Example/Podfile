@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIPanGestureRecognizerDirection_Example' do
+  pod 'UIPanGestureRecognizerDirection', :path => '../'
+
+  target 'UIPanGestureRecognizerDirection_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
