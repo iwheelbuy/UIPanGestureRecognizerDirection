@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		2218251E3C767CA6FEE078369A4AF124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		53AC9617CDCE3577872D24888A99F18A /* Pods-UIPanGestureRecognizerDirection_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3743AD1430A9A018191CF0A3BB63AB9B /* Pods-UIPanGestureRecognizerDirection_Example-dummy.m */; };
-		5716CAA07B2AA7355B7146958796C4D7 /* UIPanGestureRecognizerDirection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82414EED24FBBEA981102360B575DD61 /* UIPanGestureRecognizerDirection-dummy.m */; };
+		5716CAA07B2AA7355B7146958796C4D7 /* UIPanGestureRecognizerDirection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A373FFB7FD9224F335DA272E813730D8 /* UIPanGestureRecognizerDirection-dummy.m */; };
 		768585E2CF9815E5BF0840413A16373E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8E91EDB651973E1D5056A1ED0261D22F /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E3C25EA20DB07996D3FC46C16F4E0 /* Mutex.swift */; };
+		8E91EDB651973E1D5056A1ED0261D22F /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDC4E28E05E28E36E145CA2B78826A1 /* Mutex.swift */; };
 		A63D9028003D96EB0DF79D2AF2F8254C /* Pods-UIPanGestureRecognizerDirection_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BDDC10D6EF40F0E89871C4B5D79D48 /* Pods-UIPanGestureRecognizerDirection_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C789B614339AF871A6F98638559E0C37 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E85CD2A49BC7D68ADBD379F88A9CDC /* DispatchQueue.swift */; };
-		DA0B33056C8242035396C827C467D047 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C2D9B379ACE4595D4730124603FF4 /* Source.swift */; };
-		DCC272DD0DB8858F2DF5AC8F298A7E87 /* UIPanGestureRecognizerDirection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4214CDEAF9E314B8019442A5328D01 /* UIPanGestureRecognizerDirection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E81A812098EAADC8473D44BD165E0CCE /* Holder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6620F407BDBBCD984B4BCD364EB5B762 /* Holder.swift */; };
+		C789B614339AF871A6F98638559E0C37 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBFFF5823A3C1AD27CE8083105F03C /* DispatchQueue.swift */; };
+		DA0B33056C8242035396C827C467D047 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD88AE18F3D9A6651198E910D869C7 /* Source.swift */; };
+		DCC272DD0DB8858F2DF5AC8F298A7E87 /* UIPanGestureRecognizerDirection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89684C4D309D9375FA3261C3E61FF419 /* UIPanGestureRecognizerDirection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E81A812098EAADC8473D44BD165E0CCE /* Holder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07851989ECEF9A5DE2C090E9398B9046 /* Holder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,28 +30,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B9139F449598E1AD7E1BCD0C500F3B /* UIPanGestureRecognizerDirection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIPanGestureRecognizerDirection.xcconfig; sourceTree = "<group>"; };
 		05BDDC10D6EF40F0E89871C4B5D79D48 /* Pods-UIPanGestureRecognizerDirection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIPanGestureRecognizerDirection_Example-umbrella.h"; sourceTree = "<group>"; };
+		07851989ECEF9A5DE2C090E9398B9046 /* Holder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Holder.swift; path = UIPanGestureRecognizerDirection/Classes/Holder.swift; sourceTree = "<group>"; };
 		0843C7BD237BB58E1FE06CAE58D62C93 /* Pods-UIPanGestureRecognizerDirection_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIPanGestureRecognizerDirection_Example.modulemap"; sourceTree = "<group>"; };
-		0882DEAE5DEAD17984CA48FC02C092F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C4214CDEAF9E314B8019442A5328D01 /* UIPanGestureRecognizerDirection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizerDirection-umbrella.h"; sourceTree = "<group>"; };
+		0D8417FD11B5EA0AF48DF1F91005C26C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1CF8658E53D3F0436DE24155227C4EB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F52CD2C050883904592D6FCA11C7632 /* Pods_UIPanGestureRecognizerDirection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIPanGestureRecognizerDirection_Example.framework; path = "Pods-UIPanGestureRecognizerDirection_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32E85CD2A49BC7D68ADBD379F88A9CDC /* DispatchQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueue.swift; path = UIPanGestureRecognizerDirection/Classes/DispatchQueue.swift; sourceTree = "<group>"; };
+		30BD88AE18F3D9A6651198E910D869C7 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = UIPanGestureRecognizerDirection/Classes/Source.swift; sourceTree = "<group>"; };
 		3743AD1430A9A018191CF0A3BB63AB9B /* Pods-UIPanGestureRecognizerDirection_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIPanGestureRecognizerDirection_Example-dummy.m"; sourceTree = "<group>"; };
+		3934C106DDA2B7802D1D27E0F431C4F6 /* UIPanGestureRecognizerDirection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIPanGestureRecognizerDirection.modulemap; sourceTree = "<group>"; };
 		3CBC0E93E4915307B5C04A70CBB8DDDB /* Pods-UIPanGestureRecognizerDirection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPanGestureRecognizerDirection_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4CDBC965AD3FC7FC1B993E79C585C1F5 /* Pods-UIPanGestureRecognizerDirection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIPanGestureRecognizerDirection_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5B9C2D9B379ACE4595D4730124603FF4 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = UIPanGestureRecognizerDirection/Classes/Source.swift; sourceTree = "<group>"; };
+		56DBFFF5823A3C1AD27CE8083105F03C /* DispatchQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueue.swift; path = UIPanGestureRecognizerDirection/Classes/DispatchQueue.swift; sourceTree = "<group>"; };
+		5DDC4E28E05E28E36E145CA2B78826A1 /* Mutex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mutex.swift; path = UIPanGestureRecognizerDirection/Classes/Mutex.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6620F407BDBBCD984B4BCD364EB5B762 /* Holder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Holder.swift; path = UIPanGestureRecognizerDirection/Classes/Holder.swift; sourceTree = "<group>"; };
-		67AA576F3EE1FE2CD855E368E5A39010 /* UIPanGestureRecognizerDirection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIPanGestureRecognizerDirection.xcconfig; sourceTree = "<group>"; };
-		82414EED24FBBEA981102360B575DD61 /* UIPanGestureRecognizerDirection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIPanGestureRecognizerDirection-dummy.m"; sourceTree = "<group>"; };
-		8316932E4758C81E6CA0A3A69D26D841 /* UIPanGestureRecognizerDirection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizerDirection-prefix.pch"; sourceTree = "<group>"; };
-		8C198E1A950C222EE05A2F1D5F08F3A9 /* UIPanGestureRecognizerDirection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIPanGestureRecognizerDirection.modulemap; sourceTree = "<group>"; };
+		860B6516BF6E4E14744D2FDD478398FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		89684C4D309D9375FA3261C3E61FF419 /* UIPanGestureRecognizerDirection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizerDirection-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9569B4E46097290C41F298CDB931EE7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC08AEA05EA595875F0C144D516036A /* UIPanGestureRecognizerDirection.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UIPanGestureRecognizerDirection.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A373FFB7FD9224F335DA272E813730D8 /* UIPanGestureRecognizerDirection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIPanGestureRecognizerDirection-dummy.m"; sourceTree = "<group>"; };
 		B2C3A2C8110E2F2B37A4C3BDDDCCDDF3 /* Pods-UIPanGestureRecognizerDirection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPanGestureRecognizerDirection_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE057ABAA17361A4DDC6CDDD9A14E74E /* Pods-UIPanGestureRecognizerDirection_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIPanGestureRecognizerDirection_Example-resources.sh"; sourceTree = "<group>"; };
 		C28D0CF2DA6589DA09045E7F527B8777 /* Pods-UIPanGestureRecognizerDirection_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIPanGestureRecognizerDirection_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF6E3C25EA20DB07996D3FC46C16F4E0 /* Mutex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mutex.swift; path = UIPanGestureRecognizerDirection/Classes/Mutex.swift; sourceTree = "<group>"; };
+		F12D60884467927C2ED84BC7AD7DC2EB /* UIPanGestureRecognizerDirection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizerDirection-prefix.pch"; sourceTree = "<group>"; };
 		F7E41D29CD21A7F707E3131CFD8A8122 /* UIPanGestureRecognizerDirection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIPanGestureRecognizerDirection.framework; path = UIPanGestureRecognizerDirection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F923FE41CC2973914BE9E8AD33A289E4 /* Pods-UIPanGestureRecognizerDirection_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIPanGestureRecognizerDirection_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,50 +79,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		551B5DFACD3BE4BB7BF17B9A1377B20F /* UIPanGestureRecognizerDirection */ = {
+		048BA82A7F2FA6A09AFFC6BC59C18BBF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32E85CD2A49BC7D68ADBD379F88A9CDC /* DispatchQueue.swift */,
-				6620F407BDBBCD984B4BCD364EB5B762 /* Holder.swift */,
-				CF6E3C25EA20DB07996D3FC46C16F4E0 /* Mutex.swift */,
-				5B9C2D9B379ACE4595D4730124603FF4 /* Source.swift */,
-				7B2F043A159953B953D5053225D475D3 /* Support Files */,
+				55959EA8262CFAEEF59814B44F37E161 /* UIPanGestureRecognizerDirection */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		55959EA8262CFAEEF59814B44F37E161 /* UIPanGestureRecognizerDirection */ = {
+			isa = PBXGroup;
+			children = (
+				56DBFFF5823A3C1AD27CE8083105F03C /* DispatchQueue.swift */,
+				07851989ECEF9A5DE2C090E9398B9046 /* Holder.swift */,
+				5DDC4E28E05E28E36E145CA2B78826A1 /* Mutex.swift */,
+				30BD88AE18F3D9A6651198E910D869C7 /* Source.swift */,
+				59F03322D2C77BE095AEFA91D06F7F5C /* Pod */,
+				BFB7EB3F17F9F96971015ADC3F9A8E33 /* Support Files */,
 			);
 			name = UIPanGestureRecognizerDirection;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7B2F043A159953B953D5053225D475D3 /* Support Files */ = {
+		59F03322D2C77BE095AEFA91D06F7F5C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0882DEAE5DEAD17984CA48FC02C092F4 /* Info.plist */,
-				8C198E1A950C222EE05A2F1D5F08F3A9 /* UIPanGestureRecognizerDirection.modulemap */,
-				67AA576F3EE1FE2CD855E368E5A39010 /* UIPanGestureRecognizerDirection.xcconfig */,
-				82414EED24FBBEA981102360B575DD61 /* UIPanGestureRecognizerDirection-dummy.m */,
-				8316932E4758C81E6CA0A3A69D26D841 /* UIPanGestureRecognizerDirection-prefix.pch */,
-				0C4214CDEAF9E314B8019442A5328D01 /* UIPanGestureRecognizerDirection-umbrella.h */,
+				860B6516BF6E4E14744D2FDD478398FB /* LICENSE */,
+				0D8417FD11B5EA0AF48DF1F91005C26C /* README.md */,
+				9DC08AEA05EA595875F0C144D516036A /* UIPanGestureRecognizerDirection.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UIPanGestureRecognizerDirection";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9315EB7632CDA45CD7E83CE6267DD3F4 /* Development Pods */,
+				048BA82A7F2FA6A09AFFC6BC59C18BBF /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CEB79801366C0DE4AF8BEFAC1FE0A498 /* Products */,
 				D47B8313CABAC6BD621DEE5B32793D81 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9315EB7632CDA45CD7E83CE6267DD3F4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				551B5DFACD3BE4BB7BF17B9A1377B20F /* UIPanGestureRecognizerDirection */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -128,6 +128,20 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB7EB3F17F9F96971015ADC3F9A8E33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF8658E53D3F0436DE24155227C4EB3 /* Info.plist */,
+				3934C106DDA2B7802D1D27E0F431C4F6 /* UIPanGestureRecognizerDirection.modulemap */,
+				03B9139F449598E1AD7E1BCD0C500F3B /* UIPanGestureRecognizerDirection.xcconfig */,
+				A373FFB7FD9224F335DA272E813730D8 /* UIPanGestureRecognizerDirection-dummy.m */,
+				F12D60884467927C2ED84BC7AD7DC2EB /* UIPanGestureRecognizerDirection-prefix.pch */,
+				89684C4D309D9375FA3261C3E61FF419 /* UIPanGestureRecognizerDirection-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIPanGestureRecognizerDirection";
 			sourceTree = "<group>";
 		};
 		C7E7EC736BA431A6811C47A037EF3E79 /* Pods-UIPanGestureRecognizerDirection_Example */ = {
@@ -325,6 +339,37 @@
 			};
 			name = Release;
 		};
+		3069C19D401CAA08BBDE5421F99F67A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B9139F449598E1AD7E1BCD0C500F3B /* UIPanGestureRecognizerDirection.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIPanGestureRecognizerDirection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection.modulemap";
+				PRODUCT_NAME = UIPanGestureRecognizerDirection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6F9224530522DD3C735EC96CF142642E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -377,38 +422,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A67CA88743E0C25AD4BB0D8D5347D1C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67AA576F3EE1FE2CD855E368E5A39010 /* UIPanGestureRecognizerDirection.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIPanGestureRecognizerDirection/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection.modulemap";
-				PRODUCT_NAME = UIPanGestureRecognizerDirection;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -507,9 +520,9 @@
 			};
 			name = Debug;
 		};
-		CE189EE65B01F5437E290EA37BB13C61 /* Debug */ = {
+		BE23365B9A85A1BDFE04AA08D352A964 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67AA576F3EE1FE2CD855E368E5A39010 /* UIPanGestureRecognizerDirection.xcconfig */;
+			baseConfigurationReference = 03B9139F449598E1AD7E1BCD0C500F3B /* UIPanGestureRecognizerDirection.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -523,20 +536,21 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UIPanGestureRecognizerDirection/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection.modulemap";
 				PRODUCT_NAME = UIPanGestureRecognizerDirection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -553,8 +567,8 @@
 		700E3B0483DD3510D692DAF2377B7322 /* Build configuration list for PBXNativeTarget "UIPanGestureRecognizerDirection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE189EE65B01F5437E290EA37BB13C61 /* Debug */,
-				A67CA88743E0C25AD4BB0D8D5347D1C4 /* Release */,
+				3069C19D401CAA08BBDE5421F99F67A8 /* Debug */,
+				BE23365B9A85A1BDFE04AA08D352A964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
