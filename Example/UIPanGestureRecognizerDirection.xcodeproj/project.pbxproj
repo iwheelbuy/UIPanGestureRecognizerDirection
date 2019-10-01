@@ -120,7 +120,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				669F76AEEDDB1F47CACD7E7D /* [CP] Embed Pods Frameworks */,
-				318A3D445C3581C05BE7583B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,6 +152,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -178,28 +178,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		318A3D445C3581C05BE7583B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPanGestureRecognizerDirection_Example/Pods-UIPanGestureRecognizerDirection_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		669F76AEEDDB1F47CACD7E7D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UIPanGestureRecognizerDirection_Example/Pods-UIPanGestureRecognizerDirection_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-UIPanGestureRecognizerDirection_Example/Pods-UIPanGestureRecognizerDirection_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -208,7 +193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPanGestureRecognizerDirection_Example/Pods-UIPanGestureRecognizerDirection_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIPanGestureRecognizerDirection_Example/Pods-UIPanGestureRecognizerDirection_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		844B13005AC1774E2BC75D2B /* [CP] Check Pods Manifest.lock */ = {
@@ -288,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -335,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
