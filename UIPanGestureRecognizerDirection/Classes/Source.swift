@@ -85,7 +85,7 @@ public extension UIPanGestureRecognizer {
             case .zero:
                 self = UIPanGestureRecognizer.Direction.none
             default:
-                switch fabs(vector.x) > fabs(vector.y) {
+                switch abs(vector.x) > abs(vector.y) {
                 case true:
                     switch vector.x > 0 {
                     case true:
