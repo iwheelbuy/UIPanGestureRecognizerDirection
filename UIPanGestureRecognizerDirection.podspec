@@ -16,5 +16,6 @@ s.author                = { 'iwheelbuy' => 'iwheelbuy@gmail.com' }
 s.source                = { :git => 'https://github.com/iwheelbuy/UIPanGestureRecognizerDirection.git', :tag => s.version.to_s }
 s.summary               = 'UIPanGestureRecognizerDirection'
 s.cocoapods_version     = '>= 1.8.1'
+s.swift_versions        = ['5.1']
 
 end
