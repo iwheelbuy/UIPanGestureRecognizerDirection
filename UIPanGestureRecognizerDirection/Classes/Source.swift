@@ -63,19 +63,20 @@ public extension UIPanGestureRecognizer {
             self.rawValue = rawValue
         }
 
-        public static let all: Direction = [.up, .down, .left, .right]
-        public static let down = Direction(rawValue: 1 << 2)
-        public static let horizontal: Direction = [.left, .right]
-        public static let left = Direction(rawValue: 1 << 3)
         public static let none = Direction(rawValue: 1 << 0)
-        public static let right = Direction(rawValue: 1 << 4)
-        public static let up = Direction(rawValue: 1 << 1)
+        public static let down = Direction(rawValue: 1 << 1)
+        public static let left = Direction(rawValue: 1 << 2)
+        public static let right = Direction(rawValue: 1 << 3)
+        public static let up = Direction(rawValue: 1 << 4)
+
+        public static let all: Direction = [.up, .down, .left, .right]
+        public static let horizontal: Direction = [.left, .right]
         public static let vertical: Direction = [.up, .down]
 
         public init(locationCurrent: CGPoint, locationPrevious: CGPoint) {
             let vector = CGPoint(
                 x: locationCurrent.x - locationPrevious.x,
-                y: locationCurrent.y - locationPrevious.x
+                y: locationCurrent.y - locationPrevious.y
             )
             self.init(vector: vector)
         }
