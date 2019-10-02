@@ -29,9 +29,9 @@
 /* Begin PBXFileReference section */
 		010C7C3FCAED3904E0D92AB76CDDF043 /* Pods-UIPanGestureRecognizerDirection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIPanGestureRecognizerDirection_Example-frameworks.sh"; sourceTree = "<group>"; };
 		09192F9F85DA5A36F3ADA43BC619000B /* Pods-UIPanGestureRecognizerDirection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPanGestureRecognizerDirection_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		231FE70548FE8B442DC2FCA95A09C851 /* UIPanGestureRecognizerDirection.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UIPanGestureRecognizerDirection.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		231FE70548FE8B442DC2FCA95A09C851 /* UIPanGestureRecognizerDirection.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UIPanGestureRecognizerDirection.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		250E5B430E7C46AAE5A85BEF71FFC83D /* UIPanGestureRecognizerDirection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIPanGestureRecognizerDirection.modulemap; sourceTree = "<group>"; };
-		30B9D1A3358EFF4C5642DB1D8DF62584 /* UIPanGestureRecognizerDirection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIPanGestureRecognizerDirection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B9D1A3358EFF4C5642DB1D8DF62584 /* UIPanGestureRecognizerDirection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIPanGestureRecognizerDirection.framework; path = UIPanGestureRecognizerDirection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35F7C565E0ABF76B06000DD0017B7C6D /* UIPanGestureRecognizerDirection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizerDirection-umbrella.h"; sourceTree = "<group>"; };
 		395367B1346DD967FCCF6FECE500E43A /* Pods-UIPanGestureRecognizerDirection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPanGestureRecognizerDirection_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		8AFC7DB2416D741A17E7084A05A5356C /* Pods-UIPanGestureRecognizerDirection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIPanGestureRecognizerDirection_Example-umbrella.h"; sourceTree = "<group>"; };
 		94D5EB57C1B017F335438BDE8440456F /* Pods-UIPanGestureRecognizerDirection_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIPanGestureRecognizerDirection_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97F2A2F664F9283AD184215B8FF129FA /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = UIPanGestureRecognizerDirection/Classes/Source.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6F0B9F26AC654EF7989FC3BD592B16F /* UIPanGestureRecognizerDirection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizerDirection-prefix.pch"; sourceTree = "<group>"; };
-		BCF2B495A2AA129379BFF31889AB71DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CA880ECD18A7510BA2BEFB65600C9C09 /* Pods_UIPanGestureRecognizerDirection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPanGestureRecognizerDirection_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF129065922DA09A672ACBD14C96CBDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BCF2B495A2AA129379BFF31889AB71DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CA880ECD18A7510BA2BEFB65600C9C09 /* Pods_UIPanGestureRecognizerDirection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIPanGestureRecognizerDirection_Example.framework; path = "Pods-UIPanGestureRecognizerDirection_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF129065922DA09A672ACBD14C96CBDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D6E22F7BBAFEEBB15F056AA07FECD7B7 /* Pods-UIPanGestureRecognizerDirection_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIPanGestureRecognizerDirection_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F4BC38ECF94CC4A3F63496758201FE48 /* UIPanGestureRecognizerDirection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIPanGestureRecognizerDirection.xcconfig; sourceTree = "<group>"; };
 		F796BAE28440ADDE8C7A77BBD1697880 /* Pods-UIPanGestureRecognizerDirection_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIPanGestureRecognizerDirection_Example-dummy.m"; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -362,42 +362,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		32E2BF315B5401BB298DFAEA41F555BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4BC38ECF94CC4A3F63496758201FE48 /* UIPanGestureRecognizerDirection.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection.modulemap";
-				PRODUCT_MODULE_NAME = UIPanGestureRecognizerDirection;
-				PRODUCT_NAME = UIPanGestureRecognizerDirection;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -406,6 +374,7 @@
 			baseConfigurationReference = 395367B1346DD967FCCF6FECE500E43A /* Pods-UIPanGestureRecognizerDirection_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -442,6 +411,7 @@
 			baseConfigurationReference = 09192F9F85DA5A36F3ADA43BC619000B /* Pods-UIPanGestureRecognizerDirection_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -471,6 +441,73 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A12AE664363887DE3618E281DFBA9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4BC38ECF94CC4A3F63496758201FE48 /* UIPanGestureRecognizerDirection.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection.modulemap";
+				PRODUCT_MODULE_NAME = UIPanGestureRecognizerDirection;
+				PRODUCT_NAME = UIPanGestureRecognizerDirection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D42B3856A7E99932AB382C80D5BA1AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4BC38ECF94CC4A3F63496758201FE48 /* UIPanGestureRecognizerDirection.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection.modulemap";
+				PRODUCT_MODULE_NAME = UIPanGestureRecognizerDirection;
+				PRODUCT_NAME = UIPanGestureRecognizerDirection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -536,46 +573,14 @@
 			};
 			name = Debug;
 		};
-		FC725DCDA906B61B6F76AE97BC966F0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4BC38ECF94CC4A3F63496758201FE48 /* UIPanGestureRecognizerDirection.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIPanGestureRecognizerDirection/UIPanGestureRecognizerDirection.modulemap";
-				PRODUCT_MODULE_NAME = UIPanGestureRecognizerDirection;
-				PRODUCT_NAME = UIPanGestureRecognizerDirection;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		34BB3CDF307C3D625A1F83777D26FE95 /* Build configuration list for PBXNativeTarget "UIPanGestureRecognizerDirection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC725DCDA906B61B6F76AE97BC966F0E /* Debug */,
-				32E2BF315B5401BB298DFAEA41F555BB /* Release */,
+				A12AE664363887DE3618E281DFBA9B09 /* Debug */,
+				D42B3856A7E99932AB382C80D5BA1AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

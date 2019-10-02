@@ -1,5 +1,5 @@
 PODS:
-  - UIPanGestureRecognizerDirection (1.1.0)
+  - UIPanGestureRecognizerDirection (1.1.1)
 
 DEPENDENCIES:
   - UIPanGestureRecognizerDirection (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIPanGestureRecognizerDirection: abe508494b4ce01e7d2fe28af40b26e5d88340be
+  UIPanGestureRecognizerDirection: 6d0f166aebd75f56b05e8bc4d98de6d4d97bbcd3
 
 PODFILE CHECKSUM: b0014e3cc60859ff1904eca62f1d34e2aaceaedf
 
